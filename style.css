@@ -1,0 +1,39 @@
+.container {
+    border: 1px solid black;
+    margin: 0 auto;
+    justify-content: space-around;
+    text-align: center;
+    width: 75%;
+}
+.flex-box-container, .flex-box-container-1, .flex-box-container-2, 
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px;
+    flex-direction: row;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2 {    
+    background: url('https://hiibangalore.com/wp-content/uploads/2016/11/poker-table-background.jpg');
+    color:#ffff;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    
+}
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.table {
+    text-align: center;
+}
+
